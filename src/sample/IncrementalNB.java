@@ -1,5 +1,5 @@
 
-package dmv;
+package sample;
 /**
  
 * "Training a incremental Naive Bayes classifier "

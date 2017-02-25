@@ -1,5 +1,5 @@
 
-package dmv;
+package sample;
 /**
  * "Regression models (Simple)"
  *

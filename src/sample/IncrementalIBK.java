@@ -1,5 +1,5 @@
 
-package dmv;
+package sample;
 /**
  
 * "Training an incremental IBK classifier "

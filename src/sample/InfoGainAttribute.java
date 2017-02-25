@@ -1,4 +1,4 @@
-package dmv;
+package sample;
 /**
  * "Selecting attributes (Intermediate)"
  *

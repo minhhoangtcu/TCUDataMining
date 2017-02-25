@@ -1,0 +1,22 @@
+@relation bank
+
+@attribute age numeric
+@attribute sex {MALE,FEMALE}
+@attribute region {INNER_CITY,RURAL,TOWN,SUBURBAN}
+@attribute income numeric
+@attribute married {YES,NO}
+@attribute children {YES,NO}
+@attribute car {YES,NO}
+@attribute mortgage {YES,NO}
+@attribute pep {YES,NO}
+
+@data
+18,FEMALE,INNER_CITY,17546,NO,NO,NO,NO,?
+30,FEMALE,TOWN,30085.1,YES,YES,YES,YES,?
+51,FEMALE,INNER_CITY,16575.4,YES,YES,YES,NO,?
+23,FEMALE,TOWN,20375.4,YES,YES,NO,NO,?
+60,FEMALE,RURAL,50576.3,YES,YES,NO,NO,?
+57,FEMALE,TOWN,37869.6,YES,YES,NO,NO,?
+22,MALE,RURAL,8877.07,NO,NO,NO,NO,?
+58,MALE,TOWN,24946.6,YES,NO,YES,NO,?
+37,FEMALE,SUBURBAN,25304.3,YES,NO,YES,NO,?

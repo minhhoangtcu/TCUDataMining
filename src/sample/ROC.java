@@ -42,8 +42,8 @@ public class ROC {
 		data.setClassIndex(data.numAttributes() - 1);
 		J48 classifier = new J48();
 		classifier.buildClassifier(data);
-		Evaluation eval = new Evaluation(data);  
-		eval.crossValidateModel(classifier, data, 10, new Random(1)); // do cross validation  
+		Evaluation eval = new Evaluation(data);
+		eval.crossValidateModel(classifier, data, 10, new Random(1)); // do cross validation
 		//eval.evaluateModel(classifier, data);// evaluate the model with full train dataset
 		System.out.println("------R E S U L T S ----------\n");
 		// Printing out each prediction

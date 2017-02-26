@@ -1,6 +1,7 @@
 package source;
 
 import java.io.File;
+import java.util.Hashtable;
 import java.util.Random;
 
 import javax.swing.JFrame;
@@ -23,11 +24,11 @@ import weka.gui.visualize.ThresholdVisualizePanel;
 public class HorsePet {
 	
 	public static void main(String args[]) throws Exception {
-
+		
 		infoGain("data/tips.arff");
-		incrementalNB("data/tips.arff", "data/tips_test.arff");
-		incrementalIBk("data/tips.arff", "data/tips_test.arff");
-		drawROCCurve("data/tips.arff");
+//		incrementalNB("data/tips.arff", "data/tips_test.arff");
+//		incrementalIBk("data/tips.arff", "data/tips_test.arff");
+//		drawROCCurve("data/tips.arff");
 	}
 
 	public static void infoGain(String dataset) throws Exception {

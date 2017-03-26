@@ -1,4 +1,4 @@
-package source;
+package lab2.source;
 /**
  * "Selecting attributes (Intermediate)"
  *

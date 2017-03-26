@@ -1,5 +1,5 @@
 
-package sample;
+package lab2.sample;
 /**
  * "Regression models (Simple)"
  *

@@ -1,7 +1,6 @@
-package source;
+package lab2.source;
 
 import java.io.File;
-import java.util.Hashtable;
 import java.util.Random;
 
 import javax.swing.JFrame;
@@ -21,14 +20,14 @@ import weka.core.converters.ConverterUtils.DataSource;
 import weka.gui.visualize.PlotData2D;
 import weka.gui.visualize.ThresholdVisualizePanel;
 
-public class HorsePet {
+public class Iris {
 	
 	public static void main(String args[]) throws Exception {
-		
-		infoGain("data/tips.arff");
-//		incrementalNB("data/tips.arff", "data/tips_test.arff");
-//		incrementalIBk("data/tips.arff", "data/tips_test.arff");
-//		drawROCCurve("data/tips.arff");
+
+		infoGain("data/iris_fil.arff");
+		incrementalNB("data/iris_fil.arff", "data/iris_fil_test.arff");
+		incrementalIBk("data/iris_fil.arff", "data/iris_fil_test.arff");
+		drawROCCurve("data/iris_fil.arff");
 	}
 
 	public static void infoGain(String dataset) throws Exception {

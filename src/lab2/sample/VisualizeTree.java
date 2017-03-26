@@ -1,4 +1,4 @@
-package sample;
+package lab2.sample;
 /**
  * "Tree visualization (Intermediate)"
  *

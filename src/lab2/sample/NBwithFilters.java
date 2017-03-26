@@ -1,4 +1,4 @@
-package sample;
+package lab2.sample;
 /**
 
  * "Training a classifier (Simple)"

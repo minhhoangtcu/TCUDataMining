@@ -1,5 +1,5 @@
 
-package sample;
+package lab2.sample;
 /**
  
 * "Training a incremental Naive Bayes classifier "

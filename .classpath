@@ -7,5 +7,6 @@
 			<attribute name="javadoc_location" value="file:/Users/minhhoang/Documents/workspace/DataMining/external/doc/"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="/Users/minhhoang/Documents/workspace/DataMining/external/classificationViaClustering.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

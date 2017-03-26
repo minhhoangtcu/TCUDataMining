@@ -1,4 +1,4 @@
-package dmv;
+package lab3.sample;
 
 /**
  * "Associations rules (Simple)"

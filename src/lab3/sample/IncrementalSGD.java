@@ -1,5 +1,5 @@
 
-package dmv;
+package lab3.sample;
 /**
  
 * "Training an incremental SGD classifier "

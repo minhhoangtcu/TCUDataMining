@@ -31,7 +31,7 @@ public class IncrementalSGD {
 	public static void main(String args[]) throws Exception{
     	//incremental instance based classifier
 		ArffLoader loader = new ArffLoader();
-		loader.setFile(new File("dataset/tipsOK.arff"));
+		loader.setFile(new File("data/tipsOK.arff"));
 		Instances dataStructure = loader.getStructure();
 		dataStructure.setClassIndex(dataStructure.numAttributes() - 1);
 		SGD sgd = new SGD();
@@ -53,7 +53,7 @@ public class IncrementalSGD {
 		   System.out.println("instances in Memory " + numMem);  
 		        inMemoryData.setClassIndex(inMemoryData.numAttributes() - 1);  // for the data read
 				// specify data source to evaluate against for prediction
-				DataSource source = new DataSource("dataset/tipsOK.arff");
+				DataSource source = new DataSource("data/tipsOK.arff");
 				// load the data for prediction
 				Instances dataT = source.getDataSet();
 				dataT.setClassIndex(dataT.numAttributes() - 1);

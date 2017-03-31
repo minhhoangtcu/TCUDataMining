@@ -23,7 +23,7 @@ public class Recommender {
 		DecimalFormat pF = new DecimalFormat("#0.00");
 		
 		// read learning dataset
-		DataSource source = new DataSource("dataset/movieRatings.arff");
+		DataSource source = new DataSource("data/movieRatings.arff");
 		Instances dataset = source.getDataSet();
 		
 		// read user data

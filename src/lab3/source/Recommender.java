@@ -27,7 +27,7 @@ public class Recommender {
 		Instances dataset = source.getDataSet();
 		
 		// read user data
-		source = new DataSource("dataset/user.arff");
+		source = new DataSource("data/user.arff");
 		Instances userRating = source.getDataSet();
 		Instance userData = userRating.firstInstance();
 

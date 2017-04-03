@@ -36,14 +36,13 @@ public class Clustering {
 		// SimpleKMeans model = new SimpleKMeans(); // Simple K means cluster
 		EM model = new EM(); // Expectation Maximizer
 		// build the clusterer
-		model.buildClusterer(data);
+//		model.buildClusterer(data);
 		// System.out.println(model);
-		// classifyByCluster();
-		clusterClassify(); // classify a new entry
-		// incrementalCluster();
+		classifyByCluster();
+//		clusterClassify(); // classify a new entry
+//		incrementalCluster();
 
 		evaluate();
-
 	}
 
 	public static void clusterClassify() throws Exception {
@@ -84,7 +83,7 @@ public class Clustering {
 		ClassificationViaClustering model = new ClassificationViaClustering();
 
 		// Cluster options
-		data.setClassIndex(data.numAttributes() - 1); // for the data read
+		data.setClassIndex(1); // for the data read
 		String[] options = new String[2];
 		options[0] = "-W";
 		// options[1] = "weka.clusterers.SimpleKMeans"; // Simple K

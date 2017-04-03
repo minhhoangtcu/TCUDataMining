@@ -24,7 +24,7 @@ public class AssociationRules {
     DecimalFormat kF = new DecimalFormat("#,###,###.###");
 
     // load data
-    Instances data = new Instances(new BufferedReader(new FileReader("data/contactLenses.arff")));
+    Instances data = new Instances(new BufferedReader(new FileReader("data/titanic_nomalized.arff")));
 
     // build model
     Apriori model = new Apriori();
